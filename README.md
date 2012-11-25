@@ -2,15 +2,15 @@
 
 EasySos is a quite easy-to-use and expand implementation of the OGC <a href="http://www.opengeospatial.org/standards/sos" target="_blank">Sensor Observation Service (SOS)</a> specification.
 
-It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Frameworks for Administrator create, read, update and delete operations. The server side is based on XML-RPC written in PHP Xml Writer.
+It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Frameworks for Administrator create, read, update and delete operations. The SOS service is based on XML-RPC written using the PHP Xml Writer library.
 
 
-<BR /><BR />
+<BR />
 **DOCUMENTATION**
 
-1) Create the database using the file named "database.sql" using the postgis model - tested on PostgreSQL 8.3/9.0 and PostGIS 1.5/2.0
+1) Create the database using the file named "database.sql" using the postgis template - tested on PostgreSQL 8.3/9.0 and PostGIS 1.5/2.0
 
-2) The best way to proceed is using sample data. This stage is useful to understand how the system works (you can skip this stage, anyway). So, fill the database using the file "pop_izsve"
+2) The best way to proceed is using the sample data provided. This stage is useful to understand easily how the system works (you can skip this stage, anyway). So, fill the database using the file "pop_izsve"
 
 3) Decompress the file "sos.rar" and put both folders inside "htdocs" folder on Apache http server - tested on Apache 2.2
 
