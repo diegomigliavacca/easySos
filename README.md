@@ -2,7 +2,7 @@
 
 EasySos is a quite easy-to-use and expand implementation of the OGC <a href="http://www.opengeospatial.org/standards/sos" target="_blank">Sensor Observation Service (SOS)</a> specification.
 
-It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Frameworks for Administrator create, read, update and delete operations. The SOS service is based on XML-RPC written using the PHP Xml Writer library.
+It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Framework for Administrator create, read, update and delete operations. The SOS service is based on a REST service written using the PHP Xml Writer library.
 
 
 <BR />
