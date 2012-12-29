@@ -1,0 +1,1814 @@
+2012/10/08 19:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "PhenomenonController".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('PhenomenonContr...')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=PhenomenonController
+---
+2012/10/08 21:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posys".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('posys')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/posys
+---
+2012/10/08 21:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('posts')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/posts
+---
+2012/10/08 21:27:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('posts')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/posts
+---
+2012/10/08 21:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('posts')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/posts
+---
+2012/10/08 21:28:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('list')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/list
+---
+2012/10/08 21:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "view/posts".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('view/posts')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/view/posts
+---
+2012/10/08 22:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "list".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('list')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php/list
+---
+2012/10/10 08:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "accessRules".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('accessRules')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('accessRules')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest/accessRules
+---
+2012/10/10 08:33:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:337
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('View')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest/View
+---
+2012/10/10 08:34:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:1119
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('Delete')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest/Delete
+---
+2012/10/10 08:34:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:337
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('Update')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest/Update
+---
+2012/10/10 13:14:45 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Host sconosciuto.  (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:7)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (7)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:17:09 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Host sconosciuto.  (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:7)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (7)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:17:14 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Host sconosciuto.  (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:7)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (7)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:17:18 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Host sconosciuto.  (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:7)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (7)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:24:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:24:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ObservationController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('observation/cre...')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=observation/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=observation/create
+---
+2012/10/10 13:33:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:33:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ObservationController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('observation/cre...')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=observation/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=observation/create
+---
+2012/10/10 13:34:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:34:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: INSERT INTO "observation" ("time_stamp", "procedure_id", "feature_of_interest_id", "phenomenon_id", "offering_id", "text_value", "numeric_value", "spatial_value", "mime_type") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ObservationController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('observation/cre...')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=observation/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=observation/create
+---
+2012/10/10 13:42:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:42:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): QualityController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quality/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=quality/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=quality/create
+---
+2012/10/10 13:46:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:46:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): QualityController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quality/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=quality/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=quality/create
+---
+2012/10/10 13:49:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:49:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23514]: Check violation: 7 ERROR:  new row for relation "quality" violates check constraint "quality_quality_type_check". The SQL statement executed was: INSERT INTO "quality" ("quality_name", "quality_unit", "quality_value", "quality_type", "observation_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\QualityController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): QualityController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quality/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=quality/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=quality/create
+---
+2012/10/10 13:51:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp with time zone: "". The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:51:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp with time zone: "". The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('offering/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=offering/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=offering/create
+---
+2012/10/10 13:52:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp with time zone: "null". The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:52:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 7 ERROR:  invalid input syntax for type timestamp with time zone: "null". The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('offering/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=offering/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=offering/create
+---
+2012/10/10 13:52:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22008]: Datetime field overflow: 7 ERROR:  date/time field value out of range: "0"
+HINT:  Perhaps you need a different "datestyle" setting.. The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3).
+in C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php (73)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 13:52:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22008]: Datetime field overflow: 7 ERROR:  date/time field value out of range: "0"
+HINT:  Perhaps you need a different "datestyle" setting.. The SQL statement executed was: INSERT INTO "offering" ("offering_id", "offering_name", "min_time", "max_time") VALUES (:yp0, :yp1, :yp2, :yp3)' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(73): CActiveRecord->save()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionCreate()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('offering/create')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=offering/create
+HTTP_REFERER=http://localhost/sensos/index.php?r=offering/create
+---
+2012/10/10 18:04:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Try')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=Try
+---
+2012/10/10 18:05:11 [error] [php] Use of undefined constant CURLOPT_GET - assumed 'CURLOPT_GET' (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:9)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (9)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 18:06:11 [error] [php] curl_setopt() expects parameter 2 to be long, string given (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:9)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (9)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 18:06:35 [error] [php] Use of undefined constant CURLOPT_GET - assumed 'CURLOPT_GET' (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:9)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (9)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 18:53:45 [error] [php] simplexml_load_string(): Entity: line 58: parser error : Entity 'copy' not defined (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:19)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (19)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 18:58:39 [error] [php] Undefined variable: url (C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php:8)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): TryController->runAction()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): TryController->runActionWithFilters()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): TryController->run()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=Try
+in C:\Apache2.2\htdocs\sensos\protected\controllers\TryController.php (8)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/10 19:01:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Observations".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Observations')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=Observations
+---
+2012/10/11 09:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Observations".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Observations')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=Observations
+---
+2012/10/26 17:43:59 [error] [php] mail(): Failed to connect to mailserver at "localhost" port 25, verify your "SMTP" and "smtp_port" setting in php.ini or use ini_set() (C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php:67)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=site/contact
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (67)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/26 17:46:23 [error] [php] Use of undefined constant GGGGGG - assumed 'GGGGGG' (C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php:14)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\validators\CCaptchaValidator.php(92): CCaptchaValidator->getCaptchaAction()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(480): CCaptchaValidator->clientValidateAttribute()
+#2 C:\Apache2.2\htdocs\sensos\protected\views\site\contact.php(73): CActiveForm->error()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#7 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(72): SiteController->render()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php?r=site/contact
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (14)
+in C:\Apache2.2\htdocs\sensos\protected\views\site\contact.php (73)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (72)
+2012/10/27 17:27:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: SELECT * FROM "procedure" "t" LIMIT 10.
+in C:\Apache2.2\htdocs\sensos\protected\views\procedure\index.php (20)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (128)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/27 17:27:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: SELECT * FROM "procedure" "t" LIMIT 10' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(182): CBaseListView->init()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CListView->init()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 C:\Apache2.2\htdocs\sensos\protected\views\procedure\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Apache2.2\ht...')
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Apache2.2\ht...', Array, true)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Apache2.2\ht...', Array, true)
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#14 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(128): CController->render('index', Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ProcedureController->actionIndex()
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure')
+#26 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/sensos/index.php?r=procedure
+---
+2012/10/27 17:27:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: SELECT * FROM "procedure" "t" LIMIT 10.
+in C:\Apache2.2\htdocs\sensos\protected\views\procedure\index.php (20)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (128)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/27 17:27:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[58P01]: Undefined file: 7 ERROR:  could not access file "$libdir/postgis-1.5": No such file or directory. The SQL statement executed was: SELECT * FROM "procedure" "t" LIMIT 10' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(108): CDataProvider->getData()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(182): CBaseListView->init()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(148): CListView->init()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#9 C:\Apache2.2\htdocs\sensos\protected\views\procedure\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Apache2.2\ht...')
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Apache2.2\ht...', Array, true)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Apache2.2\ht...', Array, true)
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#14 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(128): CController->render('index', Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ProcedureController->actionIndex()
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#25 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure')
+#26 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/sensos/index.php?r=procedure
+---
+2012/10/30 09:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "procedur".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedur')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=procedur
+---
+2012/10/30 09:05:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'.
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (97)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/30 09:05:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('5a', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(97): CActiveRecord->save()
+#4 [internal function]: ProcedureController->actionUpdate('5a')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProcedureController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProcedureController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure/updat...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sensos/index.php?r=procedure/update&id=5a
+HTTP_REFERER=http://localhost/sensos/index.php?r=procedure/update&id=5a
+---
+2012/10/30 09:05:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'.
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (97)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/30 09:05:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('5a', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(97): CActiveRecord->save()
+#4 [internal function]: ProcedureController->actionUpdate('5a')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProcedureController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProcedureController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure/updat...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sensos/index.php?r=procedure/update&id=5a
+HTTP_REFERER=http://localhost/sensos/index.php?r=procedure/update&id=5a
+---
+2012/10/30 09:06:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'.
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (97)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/30 09:06:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('5a', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(97): CActiveRecord->save()
+#4 [internal function]: ProcedureController->actionUpdate('5a')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProcedureController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProcedureController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure/updat...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sensos/index.php?r=procedure/update&id=5a
+HTTP_REFERER=http://localhost/sensos/index.php?r=procedure/update&id=5a
+---
+2012/10/30 09:06:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'.
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (97)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/30 09:06:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('5a', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(97): CActiveRecord->save()
+#4 [internal function]: ProcedureController->actionUpdate('5a')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProcedureController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProcedureController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure/updat...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sensos/index.php?r=procedure/update&id=5a
+HTTP_REFERER=http://localhost/sensos/index.php?r=procedure/update&id=5a
+---
+2012/10/30 09:07:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'.
+in C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php (97)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/10/30 09:07:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[XX000]: Internal error: 7 ERROR:  parse error - invalid geometry
+HINT:  You must specify a valid OGC WKT geometry type such as POINT, LINESTRING or POLYGON. The SQL statement executed was: UPDATE "procedure" SET "procedure_id"=:yp0, "description_url"=:yp1, "description_type"=:yp2, "sml_file"=:yp3, "actual_position"=:yp4, "active"=:yp5, "mobile"=:yp6 WHERE "procedure"."procedure_id"='5a'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('5a', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(97): CActiveRecord->save()
+#4 [internal function]: ProcedureController->actionUpdate('5a')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProcedureController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProcedureController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('procedure/updat...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/sensos/index.php?r=procedure/update&id=5a
+HTTP_REFERER=http://localhost/sensos/index.php?r=procedure/update&id=5a
+---
+2012/11/12 23:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=user
+---
+2012/11/12 23:25:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=user
+---
+2012/11/12 23:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=user/admin
+---
+2012/11/13 07:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Feature Of Interest".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Feature Of Inte...')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=Feature%20Of%20Interest
+HTTP_REFERER=http://localhost/sensos/index.php?r=site/index
+---
+2012/11/14 08:12:45 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:30:22 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:32:51 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:32:52 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:32:53 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:32:53 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:32:54 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:34:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "QuoteController".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('QuoteController')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=QuoteController
+---
+2012/11/14 18:35:06 [error] [exception.CException] exception 'CException' with message 'QuoteController cannot find the requested view "index".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:879
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#1 C:\Apache2.2\htdocs\sensos\protected\controllers\QuoteController.php(27): CController->render('index', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): QuoteController->actionIndex()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Quote')
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sensos/index.php?r=Quote
+---
+2012/11/14 18:37:32 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:37:51 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:37:52 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:37:53 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:45:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915151646
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:45:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915152798
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:45:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915155197
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:45:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915155781
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915160146
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915160413
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915160710
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915160893
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:47:37 [error] [php] Undefined variable: quotes (C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php:1)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(42): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php (1)
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (42)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+2012/11/14 18:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915289020
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:48:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=site/getQuote&_=1352915309277
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/14 18:49:05 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php:1)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(42): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php (1)
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (42)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+2012/11/14 18:49:08 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php:1)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(42): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\_quote.php (1)
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (42)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+2012/11/14 18:57:56 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 18:58:42 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 19:00:35 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRandomQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(41): CComponent->__call('getRandomQuote', Array)
+#1 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(41): SiteController->getRandomQuote()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Apache2.2\ht...')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Apache2.2\ht...', NULL, true)
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Apache2.2\ht...', NULL, true)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#6 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sensos/index.php
+---
+2012/11/14 19:01:32 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/14 19:02:12 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getRandomQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(40): CComponent->__call('getRandomQuote', Array)
+#1 C:\Apache2.2\htdocs\sensos\protected\views\site\index.php(40): SiteController->getRandomQuote()
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\Apache2.2\ht...')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\Apache2.2\ht...', NULL, true)
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\Apache2.2\ht...', NULL, true)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#6 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/sensos/index.php
+---
+2012/11/15 07:05:46 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/15 17:22:50 [error] [php] Undefined variable: quote (C:\Apache2.2\htdocs\sensos\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Apache2.2\htdocs\sensos\index.php(13): CWebApplication->run()
+REQUEST_URI=/sensos/index.php
+in C:\Apache2.2\htdocs\sensos\protected\views\site\index.php (41)
+in C:\Apache2.2\htdocs\sensos\protected\controllers\SiteController.php (32)
+in C:\Apache2.2\htdocs\sensos\index.php (13)
+2012/11/15 17:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "webservice".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('webservice')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sensos/index.php?r=webservice
+---
+2012/11/15 17:25:35 [error] [exception.CException] exception 'CException' with message 'QuoteController cannot find the requested view "index".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:879
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#1 C:\Apache2.2\htdocs\sensos\protected\controllers\QuoteController.php(21): CController->render('index', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): QuoteController->actionIndex()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote')
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sensos/index.php?r=quote
+---
+2012/11/15 21:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011246144
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011248151
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011248740
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011249904
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011250305
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011250610
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011250862
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011251551
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getQuote".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('getQuote')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('getQuote')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/getQuote')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/getQuote&_=1353011251782
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012463483
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012464411
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012465146
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012465572
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012465972
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/15 21:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "CepF`ce".' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('CepF`ce')
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('CepF`ce')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('quote/CepF`ce')
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sensos/index.php?r=quote/CepF%60ce&_=1353012466222
+HTTP_REFERER=http://localhost/sensos/index.php?r=quote
+---
+2012/11/16 22:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php:155
+Stack trace:
+#0 C:\Apache2.2\htdocs\sensos\protected\controllers\ObservationController.php(55): ObservationController->loadModel('11')
+#1 [internal function]: ObservationController->actionView('11')
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ObservationController), Array)
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ObservationController), Object(ReflectionMethod), Array)
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('view')
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('observation/vie...')
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sensos/index.php?r=observation/view&id=11
+HTTP_REFERER=http://localhost/sensos/index.php?r=Observation
+---
+2012/11/20 14:16:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Offering))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Offering')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(125): CActiveDataProvider->__construct('Offering')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Offering')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Offering
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 14:27:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Offering))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Offering')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(125): CActiveDataProvider->__construct('Offering')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Offering')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Offering
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 14:47:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Offering))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Offering')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(125): CActiveDataProvider->__construct('Offering')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Offering')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Offering
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 14:48:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(FeatureOfInterest))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('FeatureOfIntere...')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\FeatureOfInterestController.php(125): CActiveDataProvider->__construct('FeatureOfIntere...')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): FeatureOfInterestController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 15:46:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Procedure))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Procedure')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\ProcedureController.php(125): CActiveDataProvider->__construct('Procedure')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ProcedureController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Procedure')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Procedure
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 15:53:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Offering))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Offering')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(125): CActiveDataProvider->__construct('Offering')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Offering')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Offering
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 16:05:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(FeatureOfInterest))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('FeatureOfIntere...')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\FeatureOfInterestController.php(125): CActiveDataProvider->__construct('FeatureOfIntere...')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): FeatureOfInterestController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('FeatureOfIntere...')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=FeatureOfInterest
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/20 18:13:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Offering))
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CActiveDataProvider.php(75): CActiveRecord::model('Offering')
+#8 C:\Apache2.2\htdocs\sensos\protected\controllers\OfferingController.php(125): CActiveDataProvider->__construct('Offering')
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): OfferingController->actionIndex()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('')
+#19 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Offering')
+#20 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\Apache2.2\htdocs\sensos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/sensos/index.php?r=Offering
+HTTP_REFERER=http://localhost/sensos/index.php
+---
+2012/11/29 21:49:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'.
+in C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php (97)
+in C:\Apache2.2\htdocs\easysos\index.php (13)
+2012/11/29 21:49:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('Quantity', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php(97): CActiveRecord->save()
+#4 [internal function]: PhenomenonController->actionUpdate('Quantity')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PhenomenonController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PhenomenonController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('phenomenon/upda...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\easysos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/easysos/index.php?r=phenomenon/update&id=Quantity
+HTTP_REFERER=http://localhost/easysos/index.php?r=phenomenon/update&id=Quantity
+---
+2012/11/29 21:50:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'.
+in C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php (97)
+in C:\Apache2.2\htdocs\easysos\index.php (13)
+2012/11/29 21:50:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('Quantity', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php(97): CActiveRecord->save()
+#4 [internal function]: PhenomenonController->actionUpdate('Quantity')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PhenomenonController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PhenomenonController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('phenomenon/upda...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\easysos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/easysos/index.php?r=phenomenon/update&id=Quantity
+HTTP_REFERER=http://localhost/easysos/index.php?r=phenomenon/update&id=Quantity
+---
+2012/11/29 21:50:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'.
+in C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php (97)
+in C:\Apache2.2\htdocs\easysos\index.php (13)
+2012/11/29 21:50:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "phenomenon" violates foreign key constraint "phenomenon_composite_phenomenon_id_fkey"
+DETAIL:  Key (composite_phenomenon_id)=() is not present in table "composite_phenomenon".. The SQL statement executed was: UPDATE "phenomenon" SET "phenomenon_id"=:yp0, "phenomenon_description"=:yp1, "unit"=:yp2, "valuetype"=:yp3, "composite_phenomenon_id"=:yp4, "om_application_schema_link"=:yp5 WHERE "phenomenon"."phenomenon_id"='Quantity'' in C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1685): CDbCommand->execute()
+#1 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1064): CActiveRecord->updateByPk('Quantity', Array)
+#2 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(796): CActiveRecord->update(NULL)
+#3 C:\Apache2.2\htdocs\easysos\protected\controllers\PhenomenonController.php(97): CActiveRecord->save()
+#4 [internal function]: PhenomenonController->actionUpdate('Quantity')
+#5 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PhenomenonController), Array)
+#6 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PhenomenonController), Object(ReflectionMethod), Array)
+#7 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('update')
+#16 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('phenomenon/upda...')
+#17 C:\Apache2.2\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\Apache2.2\htdocs\easysos\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/easysos/index.php?r=phenomenon/update&id=Quantity
+HTTP_REFERER=http://localhost/easysos/index.php?r=phenomenon/update&id=Quantity
+---
