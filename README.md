@@ -1,8 +1,8 @@
 **INFOS**
 
-EasySos is a quite easy-to-use and expand implementation of the OGC <a href="http://www.opengeospatial.org/standards/sos" target="_blank">Sensor Observation Service (SOS)</a> specification.
+EasySos is a quite easy-to-use and expand implementation of the OGC <a href="http://www.opengeospatial.org/standards/sos" target="_blank">Sensor Observation Service (SOS)</a>, <a href="http://www.opengeospatial.org/standards/om" target="_blank">O&M</a> and  <a href="http://www.opengeospatial.org/standards/sensorml" target="_blank">SensorML</a> specifications (a subset of SWE framework). It get to be useful for sharing observations (e.g. Open Data portals) in a standard way.
 
-It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Framework for Administrator create, read, update and delete operations. The SOS service is based on a REST service written using the PHP Xml Writer library.
+EasySos is based on the 52North database for PostgreSQL and PostGIS. I added CRUD operations by PHP YII Framework for Administrator create, read, update and delete operations. The SOS service is based on a REST service written using the PHP <a href="http://php.net/manual/en/book.xmlwriter.php" target="_blank">Xml Writer</a> library.
 
 
 <BR />
@@ -28,4 +28,4 @@ It's based on 52North database for PostgreSQL and PostGIS. I added CRUD operatio
 
 10) You will need to create a proper client side editing the file protected->views->site->index.php
 
-11) Get involved in developing EasySos!
+11) Get involved in developing EasySos
