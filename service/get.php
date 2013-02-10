@@ -11,11 +11,12 @@ class getObserv extends XMLWriter
         $this->startElementNS("om", "ObservationCollection", "http://www.opengis.net/om/2.0");
             $this->writeAttributeNS("xsi", "schemaLocation", "http://www.w3.org/2001/XMLSchema_instance", "http://schemas.opengis.net/om/2.0/observation.xsd");
 			
-		$query = "select observation.observation_id, observation.time_stamp, observation.numeric_value, phenomenon.phenomenon_description, feature_of_interest.feature_of_interest_description, ST_AsText(geom) as pos, procedure.description_type from observation join phenomenon on observation.phenomenon_id = phenomenon.phenomenon_id join feature_of_interest on observation.feature_of_interest_id = feature_of_interest.feature_of_interest_id join procedure on observation.procedure_id = procedure.procedure_id order by observation.observation_id";
+		$query = "select observation.observation_id, observation.time_stamp, observation.text_value, observation.numeric_value, phenomenon.phenomenon_description, feature_of_interest.feature_of_interest_description, ST_AsText(geom) as pos, procedure.description_type from observation join phenomenon on observation.phenomenon_id = phenomenon.phenomenon_id join feature_of_interest on observation.feature_of_interest_id = feature_of_interest.feature_of_interest_id join procedure on observation.procedure_id = procedure.procedure_id order by observation.observation_id";
 		$result = pg_query($query) or die("Query failed: " . pg_last_error());
 			while ($a = pg_fetch_array($result, null, PGSQL_ASSOC)) {
 				$id = $a["observation_id"];
 				$time = $a["time_stamp"];
+				$text = $a["text_value"];
 				$res = $a["numeric_value"];
 				$phenomenon = $a["phenomenon_description"];
 				$foi = $a["feature_of_interest_description"];
@@ -46,6 +47,7 @@ class getObserv extends XMLWriter
 		$this->endElement();
 		$this->startElementNS("om", "result", null);
 			$this->writeAttributeNS("xsi", "type", null, "gml:MeasureType");
+			$this->writeAttributeNS("xlink", "title", "http://www.w3.org/1999/xlink", $text);
 			$this->writeAttribute("uom", null);
 			$this->text($res);
 		$this->endElement();
@@ -63,7 +65,7 @@ class getObserv extends XMLWriter
     }
 } // end class
 
-if ($_SERVER["REQUEST_METHOD"] == "GET" and $_GET["service"] == "SOS" and $_GET["version"] == "2.0" and $_GET["request"] == "GetObservation" and $_GET["responseFormat"] == "text/xml") {
+if ($_SERVER["REQUEST_METHOD"] == "GET" and $_GET["service"] == "SOS" and $_GET["version"] == "1.0.0" and $_GET["request"] == "GetObservation" and $_GET["responseFormat"] == "text/xml") {
 header("Content-type: text/xml");
 $w = new getObserv();
 $w->__destruct();
