@@ -12,7 +12,7 @@ EasySos is based on the 52North database for PostgreSQL and PostGIS. I added CRU
 
 2) The best way to proceed is using the sample data provided. This stage is useful to understand easily how the system works (you can skip this stage, anyway). So, fill the database using the file "pop_izsve"
 
-3) Put all the folders inside "htdocs" folder on Apache http server - tested on Apache 2.2 and YII 1.1.12
+3) Put all the folders inside "htdocs" folder on Apache http server - tested on Apache 2.2 and YII 1.1.12-1.1.13
 
 4) Open the file protected->config->main.php, find the line 'db' and insert db name, username and password to access the database
 

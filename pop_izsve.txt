@@ -18,10 +18,10 @@ insert into feature_of_interest (feature_of_interest_id, feature_of_interest_nam
 values('foi9', 'trap_feature9', 'http://cf-pcmdi.llnl.gov/documents/cf-conventions/1.6/cf-conventions.html#discrete-sampling-geometries', ST_GeomFromText('POINT(45.7858634968623 13.0851029998056)', 3003), 'point');
 insert into feature_of_interest (feature_of_interest_id, feature_of_interest_name, feature_of_interest_description, geom, feature_type)
 values('foi10', 'trap_feature10', 'http://cf-pcmdi.llnl.gov/documents/cf-conventions/1.6/cf-conventions.html#discrete-sampling-geometries', ST_GeomFromText('POINT(45.8264089987247 12.79735868934)', 3003), 'point');
-insert into procedure (procedure_id, description_type) values('proc1', 'urn:ioos:sensor:CDC-CO2');
+insert into procedure (procedure_id, description_type) values('proc1', 'CDC-CO2');
 alter table phenomenon drop constraint phenomenon_valuetype_check;
 insert into phenomenon (phenomenon_id, phenomenon_description, unit, valuetype) values ('Quantity', 'http://sweet.jpl.nasa.gov/2.3/propQuantity.owl', 'integer', 'Quantity');
-insert into offering (offering_id, offering_name) values ('off1', 'urn:ioos:sensor:CDC-CO2');
+insert into offering (offering_id, offering_name) values ('off1', 'CDC-CO2');
 insert into observation (time_stamp, procedure_id, feature_of_interest_id, phenomenon_id, offering_id, text_value, numeric_value, observation_id)
 values ('2012-05-10 14:00:00','proc1', 'foi1', 'Quantity', 'off1', 'mosquitos', '595', '1');
 insert into observation (time_stamp, procedure_id, feature_of_interest_id, phenomenon_id, offering_id, text_value, numeric_value, observation_id)
