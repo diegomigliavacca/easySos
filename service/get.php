@@ -1,6 +1,4 @@
 <?php
-include("db.php");
-
 class getObserv extends XMLWriter 
 {    
     public function __construct() 
@@ -10,7 +8,7 @@ class getObserv extends XMLWriter
         $this->setIndent(true);
         $this->startElementNS("om", "ObservationCollection", "http://www.opengis.net/om/2.0");
             $this->writeAttributeNS("xsi", "schemaLocation", "http://www.w3.org/2001/XMLSchema_instance", "http://schemas.opengis.net/om/2.0/observation.xsd");
-			
+		include("db.php");
 		$query = "select observation.observation_id, observation.time_stamp, observation.text_value, observation.numeric_value, phenomenon.phenomenon_description, feature_of_interest.feature_of_interest_description, ST_AsText(geom) as pos, procedure.description_type from observation join phenomenon on observation.phenomenon_id = phenomenon.phenomenon_id join feature_of_interest on observation.feature_of_interest_id = feature_of_interest.feature_of_interest_id join procedure on observation.procedure_id = procedure.procedure_id order by observation.observation_id";
 		$result = pg_query($query) or die("Query failed: " . pg_last_error());
 			while ($a = pg_fetch_array($result, null, PGSQL_ASSOC)) {
@@ -68,6 +66,5 @@ class getObserv extends XMLWriter
 if ($_SERVER["REQUEST_METHOD"] == "GET" and $_GET["service"] == "SOS" and $_GET["version"] == "1.0.0" and $_GET["request"] == "GetObservation" and $_GET["responseFormat"] == "text/xml") {
 header("Content-type: text/xml");
 $w = new getObserv();
-$w->__destruct();
 }
 ?>

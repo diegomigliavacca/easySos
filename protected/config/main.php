@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=> 'Sensor Observation Service SOS',
+	'name'=>'Sensor Observation Service SOS',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -23,7 +23,7 @@ return array(
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'ciao',
+			'password'=>'XXXXXX',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
@@ -48,15 +48,15 @@ return array(
 		*/
 		'db'=>array(
 			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=SosDatabase',
-			'username' => 'xxxxxx',
-			'password' => 'xxxxxx',
-			'charset' => 'utf8',
+			'username' => 'XXXXXX',
+			'password' => 'XXXXXX',
+			'charset' => 'utf8'
 		),
-		/* 'db'=>array(
+		/*
+		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
 		// uncomment the following to use a MySQL database
-		/*
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
 			'emulatePrepare' => true,
@@ -90,6 +90,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'diego.migliavacca@gmail.com',
+		'adminEmail'=>'XXXXXX',
 	),
 );

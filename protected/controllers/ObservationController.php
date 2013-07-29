@@ -146,7 +146,9 @@ class ObservationController extends Controller
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
 	 * If the data model is not found, an HTTP exception will be raised.
-	 * @param integer the ID of the model to be loaded
+	 * @param integer $id the ID of the model to be loaded
+	 * @return Observation the loaded model
+	 * @throws CHttpException
 	 */
 	public function loadModel($id)
 	{
@@ -158,7 +160,7 @@ class ObservationController extends Controller
 
 	/**
 	 * Performs the AJAX validation.
-	 * @param CModel the model to be validated
+	 * @param Observation $model the model to be validated
 	 */
 	protected function performAjaxValidation($model)
 	{
