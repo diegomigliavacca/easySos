@@ -12,20 +12,22 @@ EasySos is based on the 52North database for PostgreSQL and PostGIS. I added CRU
 
 2) The best way to proceed is using the sample data provided. This stage is useful to understand easily how the system works (you can skip this stage, anyway). So, fill the database using the file "pop_izsve"
 
-3) Put all the folders inside "htdocs" folder on Apache http server - tested on Apache 2.2 and YII 1.1.12-1.1.13
+3) Put all the folders inside the Apache http server "htdocs" folder - tested on Apache 2.2
 
-4) Open the file protected->config->main.php, find the line 'db' and insert db name, username and password to access the database
+4) Download <a href="http://www.yiiframework.com" target="_blank">YII framework</a>, decompress the archive, rename the folder in "yii-1.1.13" and put it in the "htdocs" folder
 
-5) Open the file service->db.php and insert db name, username and password to access the database
+5) Open the file protected->config->main.php, find the line 'db' and insert db name, username and password to access the database
 
-6) Point your web browser to http://localhost/index.php
+6) Open the file service->db.php and insert db name, username and password to access the database
 
-7) Create, read, update and delete data is quite easy, it needn't more training. To log in use: admin admin (you will change your password later)
+7) Point your web browser to http://localhost/index.php
 
-8) Click on GetCapabilities, DescribeSensor or GetObservation links to display the server response metadata (just the GetObservation operation is available for now)
+8) Create, read, update and delete data is quite easy, it needn't more training. To log in use: admin admin (you will change your password later)
 
-9) If you need, you can modify XML metadata inside service->get.php. It's just a "startElement", "writeAttribute", "endElement" matter. Refer at PHP <a href="http://php.net/manual/en/book.xmlwriter.php" target="_blank">Xml Writer</a> documentation
+9) Click on GetCapabilities, DescribeSensor or GetObservation links to display the server response metadata (just the GetObservation operation is available for now)
 
-10) You will need to create a proper client side editing the file protected->views->site->index.php
+10) If you need, you can modify XML metadata inside service->get.php. It's just a "startElement", "writeAttribute", "endElement" matter. Refer at PHP <a href="http://php.net/manual/en/book.xmlwriter.php" target="_blank">Xml Writer</a> documentation
 
-11) Get involved in developing EasySos
+11) You will need to create a proper client side editing the file protected->views->site->index.php
+
+12) Get involved in developing EasySos
